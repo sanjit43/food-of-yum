@@ -3,3 +3,25 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+section{
+    background-image: linear-gradient(orange, tomato);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
