@@ -4,7 +4,12 @@ body{
     padding: 0px;
 }
 
-section{
+h1{
+    font-size: 30px;
+}
+
+
+.nav-bar{
     background-image: linear-gradient(orange, tomato);
     margin-left: 10px;
     margin-right: 10px;
@@ -22,6 +27,37 @@ li{
     list-style-type: none;
 }
 
-a{
+.nav-bar a{
     text-decoration: none;
+    font-weight: 700;
+    color: white;
+     /* Nav Bar Complete */
+}
+
+.tomato-color{
+    color: tomato;
+}
+
+.section-one{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.half-width img{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
 }
