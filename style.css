@@ -54,10 +54,28 @@ li{
     object-fit: cover;
 }
 
-.half-width a{
+.half-width a{ 
     text-decoration: none;
     background-image: linear-gradient(orange, red);
     padding: 10px 40px;
     border-radius: 10px;
-    color: white;
+    color: white; /*section one complete*/
+}
+
+.section-two{
+    display: flex;
+    margin-top: 5%;
+    background-image: url(images/Frame-one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-two img{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 10px; /*Complete section two*/
 }
